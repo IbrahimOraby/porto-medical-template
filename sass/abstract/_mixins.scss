@@ -1,0 +1,4 @@
+@mixin hover-effect($bg-color, $color: $light-color) {
+	color: $color;
+	background-color: $bg-color;
+}

@@ -1,0 +1,32 @@
+.btn {
+	font-weight: 600;
+	text-decoration: none;
+	padding-block: 10px;
+	padding-inline: 16px;
+	text-transform: uppercase;
+	font-size: 0.813rem;
+
+	&--primary {
+		background-color: $light-color;
+		color: $primary-color;
+		&:hover {
+			@include hover-effect($secondary-color);
+		}
+	}
+
+	&--secondary {
+		background-color: $secondary-color;
+		color: $light-color;
+	}
+
+	&--dark {
+		font-weight: 700;
+        font-size: 0.8rem;
+		padding-inline: 30px;
+		color: $dark-color;
+		border: 2px solid $dark-color;
+		&:hover {
+			@include hover-effect($dark-color);
+		}
+	}
+}
