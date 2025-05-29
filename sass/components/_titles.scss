@@ -1,0 +1,16 @@
+.sec-title {
+	&__header {
+		text-transform: capitalize;
+		color: $dark-color;
+		margin-top: 17px;
+		margin-bottom: 1px;
+        font-size: $fs-title-medium;
+        font-weight: 600;
+        letter-spacing: -0.05em;
+	}
+
+    p{
+        font-size: $fs-sub-title;
+        color: $body-color;
+    }
+}
