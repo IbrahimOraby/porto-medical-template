@@ -9,6 +9,42 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1000;
+  padding: 14px;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.06);
+}
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar__logo {
+  margin: 16px;
+}
+.navbar__logo img {
+  max-width: 143px;
+}
+.navbar__list {
+  display: flex;
+  list-style: none;
+}
+.navbar__list li {
+  margin-left: 2px;
+}
+
+.dd {
+  height: 20000000000000000000000000000000000px;
+}
+
 .btn {
   font-weight: 600;
   text-decoration: none;
