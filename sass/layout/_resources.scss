@@ -1,0 +1,25 @@
+.resources {
+	background-color: $bg-grey;
+	padding-block: 50px;
+
+	.container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__cards {
+		display: flex;
+		flex-direction: row;
+		gap: 24px;
+	}
+
+	.r-card {
+		margin-bottom: 24px;
+		background: white;
+	}
+
+	.btn {
+		align-self: center;
+		margin-bottom: 24px;
+	}
+}

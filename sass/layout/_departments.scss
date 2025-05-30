@@ -1,0 +1,32 @@
+.departments {
+	background-color: $bg-grey;
+	padding-block: 50px;
+
+	.container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__row {
+		display: flex;
+		flex-direction: row;
+		gap: 24px;
+		margin-bottom: 24px;
+	}
+
+	.btn {
+		align-self: center;
+		margin-bottom: 24px;
+	}
+
+	.card-icon {
+		&__text {
+			h3 {
+				font-size: $fs-title-small;
+			}
+			p {
+				font-size: $fs-body-small;
+			}
+		}
+	}
+}
