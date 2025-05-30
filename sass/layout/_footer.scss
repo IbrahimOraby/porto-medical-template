@@ -1,0 +1,42 @@
+.footer {
+	background-color: #34383d;
+
+	.container {
+		display: flex;
+		flex-direction: row;
+        flex-wrap: wrap;
+		justify-content: space-between;
+		padding-block: 50px;
+	}
+
+	&__section {
+	}
+	&__heading {
+		color: $light-color;
+		font-weight: 600;
+		font-size: $fs-title-footer;
+		margin-bottom: 24px;
+	}
+
+	&__list {
+		list-style: none;
+		color: $footer-body-color;
+		font-size: $fs-body-small;
+		li {
+			margin-bottom: 4px;
+		}
+	}
+
+	&__emergencyinfo {
+		color: $footer-body-color;
+		font-size: $fs-title-medium;
+	}
+
+	&__copyrights {
+		border-top: 0.5px solid #53585e;
+		color: $footer-body-color;
+		font-size: $fs-body-small;
+		text-align: center;
+		padding-block: 16px;
+	}
+}
