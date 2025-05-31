@@ -128,6 +128,26 @@ body {
   font-size: 0.788rem;
 }
 
+.doctors {
+  background-color: #ffffff;
+}
+.doctors .container {
+  padding-block: 50px;
+}
+.doctors__btns {
+  display: flex;
+  justify-content: end;
+  gap: 6px;
+}
+.doctors .sec-title {
+  margin-bottom: 24px;
+}
+.doctors__row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
 .btn {
   font-weight: 600;
   text-decoration: none;
@@ -158,6 +178,12 @@ body {
 .btn--dark:hover {
   color: #ffffff;
   background-color: #1d2127;
+}
+
+.rounded-arrow-btn {
+  background-color: #ffffff;
+  border: none;
+  display: block;
 }
 
 .sec-title__header {
@@ -195,6 +221,33 @@ body {
 }
 .r-card:hover {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.d-card {
+  margin-bottom: 24px;
+}
+.d-card__img img {
+  height: 306px;
+  width: 255px;
+}
+.d-card__text {
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+.d-card__text figcaption {
+  display: flex;
+  flex-direction: column;
+}
+.d-card__text figcaption h5 {
+  font-size: 1.05rem;
+  font-weight: 400;
+  color: #777777;
+}
+.d-card__text figcaption h3 {
+  font-size: 1.313rem;
+  color: #1d2127;
+  font-weight: 600;
 }
 
 .card-icon {

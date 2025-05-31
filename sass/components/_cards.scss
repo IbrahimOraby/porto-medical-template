@@ -27,6 +27,37 @@
 	}
 }
 
+.d-card {
+	margin-bottom: 24px;
+
+	&__img {
+		img {
+			height: 306px;
+			width: 255px;
+		}
+	}
+	&__text {
+		padding: 24px;
+		display: flex;
+		justify-content: space-between;
+		figcaption {
+			display: flex;
+			flex-direction: column;
+			h5 {
+				font-size: 1.05rem;
+				font-weight: 400;
+				color: $body-color;
+			}
+
+			h3 {
+				font-size: 1.313rem;
+				color: $dark-color;
+				font-weight: 600;
+			}
+		}
+	}
+}
+
 .card-icon {
 	display: flex;
 	gap: 1.2rem;

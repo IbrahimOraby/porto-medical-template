@@ -1,0 +1,22 @@
+.doctors {
+    background-color: $light-color;
+    .container{
+        padding-block: 50px;
+    }
+
+    &__btns{
+        display: flex;
+        justify-content: end;
+        gap: 6px;
+    }
+
+    .sec-title{
+        margin-bottom: 24px;
+    }
+
+	&__row {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 2rem;
+	}
+}
